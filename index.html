@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Yazeen - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mohammed Yazeen</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-advanced">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-intro">
+                        <span class="hero-greeting">Hello, I'm</span>
+                        <h1 class="hero-name">Mohammed Yazeen</h1>
+                        <p class="hero-subtitle">B.Tech Student in Computer Science & AI</p>
+                    </div>
+                    
+                    <div class="hero-details">
+                        <div class="hero-expertise">
+                            <h3>Expertise</h3>
+                            <ul>
+                                <li>Artificial Intelligence</li>
+                                <li>Machine Learning</li>
+                                <li>Robotics</li>
+                            </ul>
+                        </div>
+                        <div class="hero-quick-stats">
+                            <div class="stat">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Tech Skills</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-avatar-wrapper">
+                        <!-- Replace this with an actual profile photo -->
+                        <img src="./prof.jpg" alt="Mohammed Yazeen" class="hero-profile-photo">
+                        <div class="hero-avatar-badges">
+                            <div class="badge ai-badge">AI</div>
+                            <div class="badge robotics-badge">Robotics</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>A Final year Engineering student pursuing a B.Tech in Computer Science with a specialization in Artificial Intelligence and a minor in Robotics and Automation. Skilled in programming languages including C, Python, with expertise in Artificial Intelligence, Machine Learning and Robotics.</p>
+                <div class="education">
+                    <h3>Education</h3>
+                    <p>APJ Abdul Kalam Technological University, Kerala</p>
+                    <p>Adi Shankara Engineering College, Ernakulam</p>
+                    <p>B.Tech in Computer Science (AI) | 2021 - 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Pothole Detection</h3>
+                    <p>Developed a system using Computer Vision techniques to automatically detect and localize potholes on roads.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Kidney Transplantation AI</h3>
+                    <p>Published a research paper exploring the application of explainable AI to improve transparency in kidney transplantation decision-making.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Smart Lighting Solution</h3>
+                    <p>Designed an automated lighting system using PIR sensor, ESP32, and relay module to reduce energy wastage through motion detection.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skill-container">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Machine Learning</li>
+                        <li>Robotics</li>
+                        <li>ROS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Communication</li>
+                        <li>Teamwork</li>
+                        <li>Problem-Solving</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Email: mohammedyazzeen@gmail.com</p>
+                    <p>Phone: +919605536432</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mohammed-yazeen" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mohammed Yazeen. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
